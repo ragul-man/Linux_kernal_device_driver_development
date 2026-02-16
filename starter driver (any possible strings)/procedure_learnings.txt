@@ -5,6 +5,11 @@ sudo apt install -y raspberrypi-kernal-headers
 sudo apt install -y build-essential
 sudo reboot
 
+for jetson:
+uname -r find the correct kernal version 
+check linux-headers-your kernal version found in this folder "/usr/src" using ls /usr/src
+and also find headers are properly linked using "ls /lib/modules/$(uname -r)/build"
+
 STEPS:
 
 ->In terminal mkdir __yours__
